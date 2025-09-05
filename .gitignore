@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+anpr_env/
+
+# --- YOLO datasets ---
+YOLO_dataset/
+data/images/
+data/labels/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Keep only dataset config
+!data/data.yaml
+
+# --- Model weights ---
+*.pt
+*.pth
+
+# --- Training outputs ---
+runs/
+results/
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.bak
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.code-workspace
